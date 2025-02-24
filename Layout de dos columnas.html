@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de Dos Columnas</title>
+    <style>
+        .layout {
+            width: 80%;
+            margin: auto;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid #ccc;
+        }
+        .split-screen {
+            display: flex;
+        }
+        .split-screen .left, .split-screen .right {
+            flex: 1;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout split-screen">
+        <div class="left" style="background: #eee;">Izquierda</div>
+        <div class="right" style="background: #ddd;">Derecha</div>
+    </div>
+</body>
+</html>
+
