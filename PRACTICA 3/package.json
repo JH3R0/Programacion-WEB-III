@@ -1,0 +1,19 @@
+{
+    "name": "practica-crud-mvc",
+    "version": "1.0.0",
+    "description": "CRUD con MVC, Node.js, MySQL y Bootstrap",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2",
+        "mysql2": "^3.14.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}

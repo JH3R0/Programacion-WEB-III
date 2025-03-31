@@ -1,0 +1,37 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+  }
+  
+  /* Efectos para tarjetas */
+  .card {
+    transition: transform 0.2s;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Títulos */
+  h1 {
+    color: #2c3e50;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  h1::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db, #9b59b6);
+    margin: 10px auto;
+    border-radius: 2px;
+  }
